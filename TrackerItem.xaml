@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="osu_tracker.TrackerItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:osu_tracker"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="400">
+    <Grid Background="White">
+        <UniformGrid Rows="1">
+            <Label Margin="10,0,10,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Content="Label"/>
+            <TextBox Margin="10,0,10,0" IsReadOnly="True" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox"/>
+            <TextBox Margin="10,0,10,0" IsReadOnly="True" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox"/>
+        </UniformGrid>
+    </Grid>
+</UserControl>
